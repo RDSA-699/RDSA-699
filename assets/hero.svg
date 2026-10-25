@@ -1,0 +1,61 @@
+<svg width="1200" height="350" viewBox="0 0 1200 350" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="350" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#0B0A12"/><stop offset="0.5" stop-color="#14121F"/><stop offset="1" stop-color="#0A0F18"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="80" y1="0" x2="1120" y2="0" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#FBBF24" stop-opacity="0"/><stop offset="0.3" stop-color="#FBBF24"/><stop offset="0.7" stop-color="#A78BFA"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(930 145) rotate(145) scale(390 320)">
+    <stop stop-color="#FBBF24" stop-opacity="0.16"/><stop offset="1" stop-color="#FBBF24" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M38 0H0V38" stroke="#94A3B8" stroke-opacity="0.06"/></pattern>
+  <filter id="blur" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="11"/></filter>
+  <style>
+    .tag{font:700 13px Arial,Helvetica,sans-serif;letter-spacing:3px;fill:#FBBF24}.title{font:700 45px Arial,Helvetica,sans-serif;fill:#F8FAFC}.sub{font:400 19px Arial,Helvetica,sans-serif;fill:#CBD5E1}.micro{font:400 11px 'Courier New',monospace;fill:#64748B}.pill{font:700 11px Arial,Helvetica,sans-serif;fill:#FDE68A}.status{font:700 11px 'Courier New',monospace;fill:#FBBF24}.log{font:400 11px 'Courier New',monospace;fill:#CBD5E1}.ok{font:700 11px 'Courier New',monospace;fill:#FBBF24}.run{font:700 11px 'Courier New',monospace;fill:#A78BFA}.no{font:700 11px 'Courier New',monospace;fill:#64748B}
+  </style>
+</defs>
+<rect x="1" y="1" width="1198" height="348" rx="20" fill="url(#bg)" stroke="#334155"/>
+<rect x="1" y="1" width="1198" height="348" rx="20" fill="url(#grid)"/>
+<rect x="1" y="1" width="1198" height="348" rx="20" fill="url(#glow)"/>
+
+<g opacity="0.7">
+  <path d="M40 305H1160" stroke="#1E293B"/>
+  <path d="M40 262H1160M40 219H1160M40 176H1160M40 133H1160" stroke="#1B1A2B" stroke-dasharray="3 9"/>
+  <path d="M65 291 C160 270 185 300 260 272 S385 214 458 248 S570 297 644 230 S783 178 852 214 S983 252 1135 150" stroke="url(#accent)" stroke-width="2.5" stroke-dasharray="6 17" stroke-linecap="round" opacity="0.8">
+    <animate attributeName="stroke-dashoffset" values="0;-180" dur="4s" repeatCount="indefinite"/>
+  </path>
+</g>
+
+<circle cx="180" cy="250" r="7" fill="#FBBF24" opacity="0.25" filter="url(#blur)"><animate attributeName="cx" values="180;420;180" dur="8s" repeatCount="indefinite"/><animate attributeName="cy" values="250;220;250" dur="8s" repeatCount="indefinite"/></circle>
+
+<text x="74" y="82" class="tag">RDSA699 · SANDBOX</text>
+<text x="74" y="135" class="title">El garage de ingeniería</text>
+<text x="74" y="171" class="sub">Prototipos · Experimentos · Cursos · Certificados</text>
+
+<g transform="translate(74 205)">
+  <rect width="154" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+  <text x="16" y="18" class="pill">PROTOTIPAR RÁPIDO</text>
+</g>
+<g transform="translate(238 205)">
+  <rect width="154" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+  <text x="16" y="18" class="pill">APRENDER HACIENDO</text>
+</g>
+<g transform="translate(402 205)">
+  <rect width="147" height="28" rx="14" fill="#0F172A" stroke="#334155"/>
+  <text x="16" y="18" class="pill">NO ES PRODUCCIÓN</text>
+</g>
+
+<g transform="translate(868 67)">
+  <rect width="270" height="186" rx="18" fill="#0B1220" stroke="#334155"/>
+  <text x="20" y="28" class="micro">SANDBOX / REGISTRO</text>
+  <text x="20" y="54" class="status">● SANDBOX ACTIVO</text>
+  <text x="20" y="80" class="log">&gt; idea.nueva</text><text x="250" y="80" class="ok" text-anchor="end">OK</text>
+  <text x="20" y="104" class="log">&gt; prototipo.ia</text><text x="250" y="104" class="ok" text-anchor="end">OK</text>
+  <text x="20" y="128" class="log">&gt; pruebas</text><text x="250" y="128" class="run" text-anchor="end">EN CURSO</text>
+  <text x="20" y="152" class="log">&gt; produccion</text><text x="250" y="152" class="no" text-anchor="end">NO</text>
+  <path d="M20 164H250" stroke="#1E293B"/>
+  <text x="20" y="178" class="micro">STATUS: PROBANDO SIN MIEDO</text>
+  <circle cx="250" cy="174" r="4" fill="#FBBF24"><animate attributeName="opacity" values="0.15;1;0.15" dur="1.8s" repeatCount="indefinite"/></circle>
+</g>
+</svg>

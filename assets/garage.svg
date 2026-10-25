@@ -1,0 +1,47 @@
+<svg width="1200" height="290" viewBox="0 0 1200 290" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="290" gradientUnits="userSpaceOnUse"><stop stop-color="#0A0D16"/><stop offset="1" stop-color="#13111F"/></linearGradient>
+  <style>.h{font:700 16px Arial,Helvetica,sans-serif;fill:#F8FAFC}.p{font:400 12.5px Arial,Helvetica,sans-serif;fill:#94A3B8}.m{font:700 10px 'Courier New',monospace;letter-spacing:1px}.a{fill:#FBBF24}.v{fill:#A78BFA}</style>
+</defs>
+<rect x="1" y="1" width="1198" height="288" rx="18" fill="url(#bg)" stroke="#334155"/>
+
+<g transform="translate(26 30)">
+  <rect width="272" height="230" rx="16" fill="#0B1220" stroke="#334155"/>
+  <circle cx="46" cy="52" r="26" fill="#0F172A" stroke="#334155"/>
+  <path d="M34 44L46 36L58 44V60L46 68L34 60Z" stroke="#FBBF24" stroke-width="2" stroke-linejoin="round"/>
+  <text x="24" y="116" class="h">PROTOTIPOS</text>
+  <text x="24" y="140" class="p">Bocetos con IA para validar ideas</text>
+  <text x="24" y="158" class="p">antes de programar en serio.</text>
+  <rect x="24" y="186" width="116" height="24" rx="12" fill="#0F172A" stroke="#334155"/><text x="38" y="202" class="m a">EXPLORATORIO</text>
+</g>
+
+<g transform="translate(318 30)">
+  <rect width="272" height="230" rx="16" fill="#0B1220" stroke="#334155"/>
+  <circle cx="46" cy="52" r="26" fill="#0F172A" stroke="#334155"/>
+  <path d="M40 36H52M43 36V50L35 64H57L49 50V36" stroke="#A78BFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="24" y="116" class="h">EXPERIMENTOS</text>
+  <text x="24" y="140" class="p">Spikes, pruebas de concepto y</text>
+  <text x="24" y="158" class="p">mini-demos desechables.</text>
+  <rect x="24" y="186" width="104" height="24" rx="12" fill="#0F172A" stroke="#334155"/><text x="38" y="202" class="m v">DESECHABLE</text>
+</g>
+
+<g transform="translate(610 30)">
+  <rect width="272" height="230" rx="16" fill="#0B1220" stroke="#334155"/>
+  <circle cx="46" cy="52" r="26" fill="#0F172A" stroke="#334155"/>
+  <path d="M33 40H59V64H33Z M33 40L46 34L59 40 M40 48H52M40 55H49" stroke="#FBBF24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="24" y="116" class="h">CURSOS</text>
+  <text x="24" y="140" class="p">Ejercicios, proyectos y entregas</text>
+  <text x="24" y="158" class="p">de formación online o presencial.</text>
+  <rect x="24" y="186" width="82" height="24" rx="12" fill="#0F172A" stroke="#334155"/><text x="38" y="202" class="m a">ARCHIVO</text>
+</g>
+
+<g transform="translate(902 30)">
+  <rect width="272" height="230" rx="16" fill="#0B1220" stroke="#334155"/>
+  <circle cx="46" cy="52" r="26" fill="#0F172A" stroke="#334155"/>
+  <circle cx="46" cy="49" r="11" stroke="#A78BFA" stroke-width="2"/><path d="M40 58L37 70L46 65L55 70L52 58" stroke="#A78BFA" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="24" y="116" class="h">CERTIFICADOS</text>
+  <text x="24" y="140" class="p">Constancias con enlace de</text>
+  <text x="24" y="158" class="p">verificación oficial.</text>
+  <rect x="24" y="186" width="98" height="24" rx="12" fill="#0F172A" stroke="#334155"/><text x="38" y="202" class="m v">REFERENCIA</text>
+</g>
+</svg>
